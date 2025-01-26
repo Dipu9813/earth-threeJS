@@ -35,7 +35,7 @@ const lightsMat = new  THREE.MeshBasicMaterial({
     map: loader.load("textures/earthlights1k.jpg"),
     blending: THREE.AdditiveBlending,
     transparent:true,
-    opacity: 0.4
+    opacity: 0.2
 })
 const lightMesh = new THREE.Mesh(geo, lightsMat);
 earthGroup.add(lightMesh);
